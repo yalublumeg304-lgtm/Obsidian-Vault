@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Васянов Вася | Mobile Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Фоновые декоративные элементы для эффекта глубины -->
+    <div class="bg-gradient-sphere sphere-1"></div>
+    <div class="bg-gradient-sphere sphere-2"></div>
+
+    <header class="glass-nav reveal">
+        <div class="container nav-container">
+            <div class="logo">ВВ.</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#skills">Навыки</a></li>
+                    <li><a href="#experience">Опыт</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="about" class="hero reveal">
+            <div class="hero-content glass-card">
+                <span class="badge">Open to work</span>
+                <h1>Васянов Вася Васянович</h1>
+                <h2 class="typing-text">Mobile Developer (iOS / Android / Cross-platform)</h2>
+                <p class="hero-desc">
+                    Разрабатываю масштабируемые, безопасные и удобные мобильные решения. 
+                    Фокус на чистую архитектуру, производительность и измеримый бизнес-результат.
+                </p>
+                <div class="hero-meta">
+                    <span>📍 г. Сургут</span>
+                    <span>💻 Удаленно / Офис</span>
+                </div>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Связаться со мной</a>
+                    <a href="#" class="btn btn-secondary" download>Скачать PDF</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section reveal">
+            <h3 class="section-title">Технический стек</h3>
+            <div class="skills-grid">
+                <div class="glass-card skill-category">
+                    <h4>Языки</h4>
+                    <div class="tags">
+                        <span class="tag">Kotlin</span>
+                        <span class="tag">Swift</span>
+                        <span class="tag">Dart</span>
+                        <span class="tag">TypeScript</span>
+                    </div>
+                </div>
+                <div class="glass-card skill-category">
+                    <h4>Фреймворки</h4>
+                    <div class="tags">
+                        <span class="tag">Flutter</span>
+                        <span class="tag">React Native</span>
+                        <span class="tag">SwiftUI</span>
+                        <span class="tag">Jetpack Compose</span>
+                    </div>
+                </div>
+                <div class="glass-card skill-category">
+                    <h4>Инструменты</h4>
+                    <div class="tags">
+                        <span class="tag">Git / GitLab CI</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">Figma</span>
+                        <span class="tag">Jira</span>
+                    </div>
+                </div>
+                <div class="glass-card skill-category">
+                    <h4>Архитектура</h4>
+                    <div class="tags">
+                        <span class="tag">Clean Architecture</span>
+                        <span class="tag">MVVM</span>
+                        <span class="tag">SOLID</span>
+                        <span class="tag">REST API / GraphQL</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section reveal">
+            <h3 class="section-title">Опыт работы</h3>
+            <div class="timeline">
+                <div class="timeline-item glass-card">
+                    <div class="timeline-date">2023 – Наст. время</div>
+                    <div class="timeline-content">
+                        <h4>Mobile-разработчик (Middle/Senior)</h4>
+                        <span class="company">[Название компании] • Удаленно</span>
+                        <ul class="achievements">
+                            <li>Разработка и поддержка кроссплатформенных приложений (Flutter) и нативных модулей.</li>
+                            <li>Проектирование архитектуры новых модулей с соблюдением Clean Architecture и SOLID.</li>
+                            <li>Оптимизация производительности: снижение времени холодного запуска на 30%.</li>
+                            <li>Внедрение Unit и UI тестов, сократившее количество багов на продакшене на 40%.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item glass-card">
+                    <div class="timeline-date">2021 – 2022</div>
+                    <div class="timeline-content">
+                        <h4>Младший мобильный разработчик (Junior)</h4>
+                        <span class="company">[Название компании] • г. Сургут</span>
+                        <ul class="achievements">
+                            <li>Разработка адаптивных UI в строгом соответствии с макетами Figma.</li>
+                            <li>Интеграция сторонних SDK и REST API.</li>
+                            <li>Оптимизация процесса сборки проекта, сокращение времени компиляции на 20%.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section reveal">
+            <h3 class="section-title">Образование</h3>
+            <div class="glass-card education-card">
+                <h4>Профессионально-техническое училище для ровных (ПТУдР)</h4>
+                <p class="edu-details">Специальность: Интерфейсы мобильных приложений • г. Сургут • 2023</p>
+                <p class="edu-desc">Постоянное повышение квалификации: изучение интеграции AI-инструментов в процесс разработки и современных паттернов проектирования.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section reveal">
+            <h3 class="section-title">Контакты</h3>
+            <div class="glass-card contact-card">
+                <p>Готов обсудить интересные проекты и вакансии. Предпочтительный способ связи — Telegram или почта.</p>
+                <div class="contact-links">
+                    <a href="mailto:vasek303@example.com" class="contact-item">
+                        <span class="icon">✉️</span>
+                        <span>vasek303@example.com</span>
+                    </a>
+                    <a href="tel:+79002281337" class="contact-item">
+                        <span class="icon">📱</span>
+                        <span>+7 (900) 228-13-37</span>
+                    </a>
+                    <a href="https://github.com/" target="_blank" class="contact-item">
+                        <span class="icon">💻</span>
+                        <span>github.com/vasyanov</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-nav">
+        <div class="container">
+            <p>© 2026 Васянов Вася. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
